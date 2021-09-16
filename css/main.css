@@ -9,6 +9,8 @@
 .brand{
     font-size: 12px;
     font-weight: 200;
+    display: inline-block;
+    
 }
 
 .name{
@@ -21,46 +23,49 @@
     color: red;
     font-size: 12px;
     font-weight: bold;
+    display: inline-block;
+
 }
 
 .discounted-price{
     font-size: 12px;
     font-weight: 200;
-    text-decoration: line-through
+    text-decoration: line-through;
+    display: inline;
 }
 
 .heart{
-background:white;
-padding: 8px;
-position: absolute;
-right: 0;
-top: 10px;
+    background:white;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    top: 10px;
 }
 
 .discount{
     position: absolute;
     left: 0;
-    bottom: 70px;
+    bottom: 65px;
     color: white;
     font-size: 12px;
 }
 
 .discount-amount{
-    background: red;
+    background:#EB0037;
     padding: 2px;
 }
 
 .discount > span[for=so]{
-    background: green;
+    background: #00875A;
     padding: 2px;
 }
-    
+
     /* Image Hover Section */
- 
+
 .product > img:nth-child(2){
     display: none;
-    
 }
+
 .product:hover > img:nth-child(2) {
     display: block;
     width: 100%;
@@ -73,18 +78,21 @@ top: 10px;
 /* Card Settings */
 .container{
     padding: 15px 50px 10px; 
-    width: 900px;
-    height: 900px;
+    width: 1000px;
+    height: 1100px;
     margin: 20px auto;
 }
+
 .product{
     width: 33%;
     display: inline-block;
     position: relative;
     margin-top: 20px;
+    
 }
+
 .product img{
     width: 100%;
     display: block;
-
+    margin-bottom: 5px;
 }
