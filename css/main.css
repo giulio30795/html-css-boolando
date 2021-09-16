@@ -5,13 +5,37 @@
     box-sizing: border-box;
 }
 
+/* Commons */
+.brand{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.discounted-price{
+    font-size: 12px;
+    font-weight: 200;
+    text-decoration: line-through
+}
+
+
 /* Card Settings */
 .container{
     padding: 15px 50px 10px; 
     width: 900px;
     height: 900px;
     margin: 20px auto;
-    background: red;
 }
 .product{
     width: 33%;
