@@ -12,7 +12,7 @@
 }
 
 .name{
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -28,6 +28,25 @@
     font-weight: 200;
     text-decoration: line-through
 }
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    color: white;
+    font-size: 12px;
+  
+}
+
+.discount-amount{
+    background: red;
+    padding: 2px;
+}
+
+.discount > span:last-child{
+    background: green;
+    padding: 2px;
+}
+    
 
 
 /* Card Settings */
@@ -40,6 +59,7 @@
 .product{
     width: 33%;
     display: inline-block;
+    position: relative;
     
 }
 .product img{
