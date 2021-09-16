@@ -43,8 +43,6 @@ top: 10px;
     bottom: 70px;
     color: white;
     font-size: 12px;
-
-  
 }
 
 .discount-amount{
@@ -57,13 +55,19 @@ top: 10px;
     padding: 2px;
 }
     
+    /* Image Hover Section */
+ 
 .product > img:nth-child(2){
     display: none;
     
 }
-.product > img:nth-child(2):hover{
- display: block;
- 
+.product:hover > img:nth-child(2) {
+    display: block;
+    width: 100%;
+}
+
+.product:hover > img:nth-child(1) {
+    display: none;
 }
 
 /* Card Settings */
@@ -77,9 +81,10 @@ top: 10px;
     width: 33%;
     display: inline-block;
     position: relative;
-    margin-top: 20px;    
+    margin-top: 20px;
 }
 .product img{
     width: 100%;
+    display: block;
 
 }
