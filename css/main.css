@@ -43,6 +43,7 @@ top: 10px;
     bottom: 70px;
     color: white;
     font-size: 12px;
+
   
 }
 
@@ -51,7 +52,7 @@ top: 10px;
     padding: 2px;
 }
 
-.discount > span:nth-child(2) {
+.discount > span[for=so]{
     background: green;
     padding: 2px;
 }
@@ -60,8 +61,9 @@ top: 10px;
     display: none;
     
 }
-.product > img:nth-child(1):hover{
+.product > img:nth-child(2):hover{
  display: block;
+ 
 }
 
 /* Card Settings */
