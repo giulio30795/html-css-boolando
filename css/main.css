@@ -28,6 +28,15 @@
     font-weight: 200;
     text-decoration: line-through
 }
+
+.heart{
+background:white;
+padding: 8px;
+position: absolute;
+right: 0;
+top: 10px;
+}
+
 .discount{
     position: absolute;
     left: 0;
@@ -42,12 +51,18 @@
     padding: 2px;
 }
 
-.discount > span:last-child{
+.discount > span:nth-child(2) {
     background: green;
     padding: 2px;
 }
     
-
+.product > img:nth-child(2){
+    display: none;
+    
+}
+.product > img:nth-child(1):hover{
+ display: block;
+}
 
 /* Card Settings */
 .container{
@@ -60,7 +75,7 @@
     width: 33%;
     display: inline-block;
     position: relative;
-    
+    margin-top: 20px;    
 }
 .product img{
     width: 100%;
